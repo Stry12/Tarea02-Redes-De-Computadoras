@@ -29,7 +29,7 @@ def main(argv):
 
     except getopt.GetoptError:
         #Modificar para coincidir con tarea
-        print("Use: python OUILookup.py --ip <IP> | --mac <IP> | --arp | [--help] \n --ip : IP del host a consultar. \n --mac: MAC a consultar. P.e. aa:bb:cc:00:00:00. \n --arp: muestra los fabricantes de los host disponibles en la tabla arp.	\n --help: muestra este mensaje y termina.")
+        print("Use: python OUILookup.py --ip <IP> | --Arg2 <Arg2> | --Arg3 | [--help] \n --ip : IP del host a consultar. \n --Arg2:  \n --Atg3: \n --help:")
         sys.exit(2)
 
     for opt, arg in opts:
